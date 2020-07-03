@@ -1,0 +1,232 @@
+@font-face 
+    {
+        font-family: 'nasalisation';
+            src: url('nasalization-rg.ttf');
+    }
+@font-face 
+    {
+        font-family: 'OpenSans';
+            src: url('OpenSans-Regular.ttf');
+    }
+
+@font-face 
+    {
+        font-family: 'OpenSans-Bold';
+            src: url('OpenSans-Bold.ttf');   
+    }
+main       
+    {
+        font-size: 14px;
+        text-align: center; 
+        max-width: 810px;
+        text-align: center;
+        word-wrap: normal;
+        margin-right: auto;
+        margin-left: auto;
+    }
+body
+    {
+        font-family: 'OpenSans';
+        background-color: #f2f2f2;
+    }
+header
+    {
+        background-image: url('texture-header.jpg');
+        height: 150px;
+    }
+
+.align
+    {
+        display: flex;
+    }
+
+header h1
+    {
+        font-family: 'nasalisation';
+        font-size: 40px;
+        color: #27d1ff;
+        text-align: center;
+        vertical-align: middle;   
+        margin: auto;
+        position: relative;
+        top: 55px;
+    }
+.navigation
+    {
+        display: inline-block;
+        flex-direction: row;
+        background-color: #2e2f30;
+        padding-right: 50px;
+        margin: 0px;
+        color: white;
+        background-color: #2e2f30;
+        text-align: right;
+        width: 850px;
+        vertical-align: middle; 
+        position: relative;
+        bottom: 3.2em;
+    }
+.border-nav
+    {
+        background-color: rgba(161, 154, 154, 0.993);
+        height: 50px;
+    }
+.navigation ul 
+    {
+        padding: 0;
+        margin: 0;
+    }
+.navigation li 
+    {
+        display: inline;
+    }
+    
+.navigation a 
+    {
+        display: inline-block;
+        margin: 0 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    
+.navigation a:hover{
+        color: #17C1FF;
+    }
+    
+a:hover
+    {
+        color: #17c1ff;
+    }
+
+a:active
+    {
+        font-family: 'OpenSans-Bold';
+        color: #17c1ff;
+    }   
+
+.image
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+h2
+    {
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: grey 0.1em 0.1em 0.2em; 
+        color: #e6e6e6;
+        position: relative;
+        top: 10px;
+    }    
+
+.texte
+    {
+        text-align: center;
+        width: 750px;
+        padding: 10px;
+        position: relative;
+        left: 250px;
+        top: 100px;
+    }
+    
+.PCS
+    {
+        vertical-align: middle;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        position: relative; bottom: 250px;
+    }
+
+.table
+    {
+        text-align: left;
+        font-family: 'OpenSans';
+        vertical-align:middle;
+        margin: auto;
+        height: 480px;
+        position: relative; left: 220px; top: 80px;
+        display: flex;
+        max-height: 480px;
+        overflow-y: scroll;
+        width: 810px;
+
+    }
+    th
+    {
+        background-color: skyblue;
+    }
+
+.wk1
+    {
+        color:#f2f2f2;
+    }
+
+input[type=text], select, textarea 
+    {
+        max-width: 300px; /* Full width */
+        padding: 8px; /* Some padding */ 
+        border: 2px solid #e6e6e6; /* Gray border */
+        font-family: 'OpenSans';
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */ 
+        outline: none;
+    }
+
+input[type=submit] 
+    {
+        background-color: #27d1ff;
+        color: white;
+        width: 250px;
+        padding: 12px 20px;
+        cursor: pointer;
+        border: none    ;
+    }
+input[type=submit]:hover
+    {
+        background-color: #17c1ff  ;
+    }
+input[type=submit]:active
+    {   
+        box-shadow: -5px 2px 5px 3px rgb(95, 156, 184) inset;
+    }
+.en-cours a 
+    {
+        color: #17c1ff;
+        font-family: 'OpenSans';
+    }
+    .container 
+    {
+        border-width: 5px;
+        border-style: ridge;
+        border-radius: 10px;
+        border-color: #17c1ff;
+        background-color: #f2f2f2;
+        padding: 20px
+    }
+input[placeholder]:hover
+    {
+        border-width: 2px;
+        border-style: double;
+        border-color: blue;
+    }
+
+th
+    {
+        background-color: skyblue;
+    }
+
+.form
+    {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: #e6e6e6 solid 2px;
+    }

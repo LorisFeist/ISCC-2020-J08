@@ -15,6 +15,7 @@
 <body>
  <title>mini-site-routing</title> 
     <?php
+    //Si page 1 affiche Accueil//
         if($_GET["page"]== "1")
         {
             echo "Accueil !";
